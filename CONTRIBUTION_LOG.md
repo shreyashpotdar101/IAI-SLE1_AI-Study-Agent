@@ -1,4 +1,4 @@
-# AI Contribution Log
+# AI Agent Contribution Log
 
 ## AI Study Assistant Agent
 
