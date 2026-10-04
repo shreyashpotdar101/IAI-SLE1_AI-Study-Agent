@@ -19,120 +19,224 @@
 
 ---
 
-# 1. AI Tools Used
+## 1. AI Tools Used
 
-## ChatGPT
-
-**AI Tool:** ChatGPT
+### ChatGPT
 
 **Role in the Project:**
 
 ChatGPT was used as an AI-assisted development tool for:
 
-- Understanding the project requirements.
-- Designing the basic agent structure.
-- Generating Python code.
-- Suggesting functions and program logic.
-- Improving user input handling.
-- Adding greeting and help functionality.
-- Debugging Python errors.
-- Improving request detection.
-- Suggesting test cases.
-- Preparing project documentation.
-- Preparing the README file.
-- Preparing this AI Contribution Log.
+- Understanding the project requirements  
+- Designing the basic agent structure  
+- Generating Python code  
+- Suggesting functions and program logic  
+- Improving user input handling  
+- Adding greeting and help functionality  
+- Debugging Python errors  
+- Improving request detection  
+- Suggesting test cases  
+- Preparing project documentation  
+- Preparing the README file  
+- Preparing this AI Contribution Log  
 
 ChatGPT was used as an assistant during development. The final code was reviewed, tested, and verified by the student.
 
 ---
 
-## GitHub Copilot
+### GitHub Copilot
 
-**AI Tool:** GitHub Copilot
+**Status:** Not used
 
-**Current Status:** Not used in the current implementation.
-
-If GitHub Copilot is used in future development, its generated code and contribution will be added to this Contribution Log.
+If used in the future, its contribution will be added.
 
 ---
 
-# 2. AI-Generated / AI-Assisted Parts
+## 2. AI-Assisted Development
 
-The following parts of the project were fully or mostly generated or assisted by ChatGPT.
+### 2.1 Agent Structure
 
-## 2.1 Agent Class
+- Created `AIStudyAssistant` class  
+- Organized program into modular functions  
 
-**File:** `agent.py`
+---
 
-ChatGPT assisted in creating the main:
+### 2.2 Request Processing
 
-python
-class AIStudyAssistant:
+- Keyword-based request detection  
+- Supported commands:
+  - Explain  
+  - Quiz  
+  - Summary  
+  - Study Plan  
+  - Study Tips  
+  - Help  
+  - Exit  
+  - Greeting  
 
-# 3. Testing and Verification
+---
 
-The final application was tested using the following test cases.
+### 2.3 Features Developed with AI Help
+
+- Explanation functionality  
+- Quiz generation (5 questions)  
+- Summary generation  
+- Study plan creation (5 days)  
+- Study tips  
+- Greeting system  
+- Help menu  
+- Exit system  
+
+---
+
+### 2.4 Input Handling
+
+- Empty input validation  
+- Flexible user input recognition  
+
+---
+
+## 3. Student Contribution
+
+### 3.1 Project Setup
+
+- Created project structure  
+- Set up Python environment  
+- Used Visual Studio Code  
+- Organized files  
+
+---
+
+### 3.2 Implementation
+
+- Integrated AI-generated code  
+- Modified logic as needed  
+- Improved program flow  
+- Added input handling  
+
+---
+
+### 3.3 Code Review
+
+Verified:
+
+- Syntax correctness  
+- Logic correctness  
+- Output accuracy  
+- Requirement matching  
+- Edge-case handling  
+
+---
+
+### 3.4 Debugging
+
+- Ran program in terminal  
+- Identified errors  
+- Fixed issues  
+- Retested after changes  
+
+---
+
+### 3.5 Testing
+
+Tested:
+
+- Greetings  
+- Explain feature  
+- Quiz generation  
+- Summary  
+- Study plan  
+- Study tips  
+- Help command  
+- Empty input  
+- Exit command  
+
+---
+
+## 4. Test Cases
 
 | Test | Input | Expected Result | Status |
 |---|---|---|---|
-| 1 | `hi` | Greeting response | Passed |
-| 2 | `hello` | Greeting response | Passed |
-| 3 | `Explain machine learning` | Explanation response | Passed |
-| 4 | `Generate quiz questions about Python` | Five quiz questions | Passed |
-| 5 | `Summarize DBMS` | Summary response | Passed |
-| 6 | `Create a study plan for DBMS` | Five-day study plan | Passed |
-| 7 | `Give me study tips` | Study tips displayed | Passed |
-| 8 | `help` | List of available actions | Passed |
-| 9 | Empty input | Warning message | Passed |
-| 10 | `exit` | Program termination | Passed |
+| 1 | hi | Greeting | Passed |
+| 2 | hello | Greeting | Passed |
+| 3 | Explain machine learning | Explanation | Passed |
+| 4 | Generate quiz questions about Python | Quiz | Passed |
+| 5 | Summarize DBMS | Summary | Passed |
+| 6 | Create a study plan for DBMS | Study Plan | Passed |
+| 7 | Give me study tips | Tips | Passed |
+| 8 | help | Help Menu | Passed |
+| 9 | (empty input) | Warning | Passed |
+| 10 | exit | Program Exit | Passed |
 
 ---
 
-# 4. AI-Generated Code Verification
+## 5. AI Contribution Summary
 
-AI-generated code was treated as a suggestion and was not accepted without review and testing.
+ChatGPT helped in:
 
-Tested/verified the following:
-
-- Python syntax
-- Program execution
-- Request detection
-- Function execution
-- User input handling
-- Greeting handling
-- Help functionality
-- Exit handling
-- Empty-input handling
-- Topic extraction
-- Output correctness
-- Error handling
-
-The final implementation was tested manually in the Visual Studio Code terminal using different study-related requests.
+- Understanding requirements  
+- Designing structure  
+- Generating Python code  
+- Suggesting logic  
+- Debugging  
+- Improving input handling  
+- Suggesting test cases  
+- Writing documentation  
 
 ---
 
-# 5. Security and Reliability Considerations
+## 6. Student Contribution Summary
 
-The current project does not use:
+Student was responsible for:
 
-- External APIs
-- Databases
-- Authentication
-- Network connections
-- User account information
-- External file storage
-
-Therefore, the current basic version has limited security risks.
-
-However, AI-generated code may potentially contain:
-
-- Incorrect logic
-- Unsupported assumptions
-- Syntax errors
-- Unnecessary code
-- Incorrect handling of edge cases
-- Unexpected output
-
-For this reason, AI-generated or AI-assisted code was reviewed and tested before being included in the final project.
+- Final implementation  
+- Code integration  
+- Code modification  
+- Testing and debugging  
+- Verification of outputs  
+- GitHub repository management  
+- Documentation  
+- Final submission  
 
 ---
+
+## 7. AI vs Student Responsibility
+
+| Activity | AI Role | Student Role |
+|---|---|---|
+| Requirement Understanding | Suggested | Finalized |
+| Design | Suggested | Implemented |
+| Code | Generated | Modified |
+| Debugging | Suggested fixes | Applied fixes |
+| Testing | Suggested cases | Performed testing |
+| Documentation | Assisted | Finalized |
+| Submission | No role | Full responsibility |
+
+---
+
+## 8. Security Considerations
+
+This project does not use:
+
+- APIs  
+- Databases  
+- Authentication  
+- Network connections  
+
+Possible AI risks:
+
+- Incorrect logic  
+- Edge-case issues  
+- Unexpected output  
+
+All AI code was reviewed before use.
+
+---
+
+## 9. Declaration
+
+This project was developed using AI assistance (ChatGPT).
+
+All AI-generated content was reviewed, modified, and tested by the student.
+
+The student is fully responsible for the final implementation and submission.
